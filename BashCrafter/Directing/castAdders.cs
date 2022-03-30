@@ -63,6 +63,11 @@ namespace BashCrafter
             actor.AddAttribute(new AttributeCameraTrack());
             
             cast.AddActor("player", actor);
+
+        }
+        public void AddBackground(Cast cast)
+        {
+            
         }
     }
 }
